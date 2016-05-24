@@ -1,0 +1,205 @@
+/* ----------- Canary Signature Fonts ------------- */
+@import url(typography.css);
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Graphik-Light', 'Verdana', sans-serif;
+  line-height: 1.6;
+  font-size: 1em;
+  /* 16px */
+  color: #000;
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1 {
+  font-family: 'Graphik-Light', 'Verdana', sans-serif;
+  font-size: 2em;
+  /* 32px / 16px */
+  text-align: center;
+  font-weight: 200; }
+
+h2 {
+  font-family: 'Graphik-Semibold', 'Verdana', sans-serif;
+  font-size: 1.5em;
+  /* 24px / 16px */ }
+
+h3 {
+  font-family: 'Graphik-Semibold', 'Verdana', sans-serif;
+  font-size: 1.125em;
+  /* 18px / 16px */
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #4FAF88; }
+
+h1,
+h2,
+h3 {
+  margin-top: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+section {
+  margin-bottom: 50px; }
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* ---- Navigation ---- */
+.logo {
+  margin: 0; }
+
+.main-nav {
+  margin-top: 0;
+  width: 100%; }
+
+logo a,
+.main-nav a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px; }
+
+.main-nav a {
+  font-size: .95em;
+  color: #000;
+  text-transform: uppercase; }
+
+.main-nav a:hover {
+  color: #4FAF88; }
+
+.bold {
+  font-weight: bold; }
+
+/* ---- Layout Containers ---- */
+.main-header {
+  padding-bottom: .5em; }
+
+.banner,
+.main-footer {
+  text-align: center; }
+
+.banner {
+  color: #040404;
+  background: #fff;
+  padding: 1em 0;
+  margin-bottom: 24px; }
+
+.col {
+  padding-right: 1em;
+  padding-left: 1em; }
+
+/* ---- Page Elements ---- */
+.logo {
+  padding-top: 10px; }
+
+.insurance-logos {
+  margin: 10px auto; }
+
+.i-logo {
+  height: 28px;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.headline {
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.headline2 {
+  line-height: 1;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.bg-light-gray {
+  background-color: #f8f8f8; }
+
+.light-gray {
+  color: #888; }
+
+.centered {
+  text-align: center; }
+
+#discount-eligibility {
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+.column {
+  margin: 20px 0; }
+
+.first,
+.second,
+.third {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 275px;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc; }
+
+.footer-img {
+  width: 50%; }
+
+.footer-img img {
+  width: 640px; }
+
+.footer-contact {
+  width: 50%;
+  background: #48CCDF;
+  color: #fff;
+  padding: 1.5em 0; }
+
+.btn {
+  width: 200px;
+  display: block;
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  color: #48CCDF;
+  font-size: 1.25em;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: auto; }
+
+.btn:hover {
+  background: #777;
+  text-decoration: none; }
+
+.text {
+  width: 70%;
+  padding: 50px 0;
+  margin: 30px auto; }
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+  .main-header,
+  .row,
+  .main-footer {
+    padding: 0;
+    width: 100%;
+    margin: 0; } }
+@media (min-width: 1025px) {
+  .main-header,
+  .row {
+    width: 80%;
+    max-width: 1150px; } }
+
+/*# sourceMappingURL=main.css.map */

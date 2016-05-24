@@ -1,0 +1,101 @@
+/* ================================= 
+  Base Styles
+==================================== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+  .main-header,
+  .main-nav,
+  .insurance-logos,
+  .logo,
+  .main-footer,
+  .row,
+  .col {
+    display: flex; }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+    margin: auto; }
+
+  .row {
+    flex-grow: 1;
+    margin: auto; }
+
+  .col {
+    flex: 1 175px;
+    flex-direction: column;
+    justify-content: space-between; }
+
+  .insurance-logos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  .logo {
+    margin-right: auto; }
+
+  .learn-more {
+    margin-top: auto;
+    align-self: flex-start; }
+
+  .main-footer {
+    flex-direction: row;
+    flex-grow: 1; }
+
+  /*-------------Section 3----------------*/
+  .insurance-row {
+    display: flex;
+    min-height: 50vh;
+    justify-content: space-around; }
+
+  .logo-item {
+    margin: auto; }
+
+  .footer-contact {
+    width: 50%;
+    flex-grow: 1; }
+
+  .footer-img {
+    flex-grow: 1; } }
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .item-7 {
+    margin-left: auto; }
+
+  .primary {
+    flex-grow: 1;
+    flex-wrap: wrap; }
+
+  .secondary {
+    flex-grow: 1.25; }
+
+  .footer-img {
+    flex-grow: 1; }
+
+  .footer-content {
+    flex-wrap: wrap;
+    flex-grow: 1; } }
+@media (max-width: 768px) {
+  .responsive-img {
+    display: none; }
+
+  .footer-contact {
+    background: #48CCDF;
+    width: 100%; }
+
+  .first,
+  .second,
+  .third {
+    margin: 20px auto; } }
+
+/*# sourceMappingURL=flexbox.css.map */
